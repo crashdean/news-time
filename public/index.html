@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Scraping With Mongoose</title>
-    <style>
-      body { background-color: #F2F6D0 }
+
+<head>
+  <meta charset="UTF-8">
+  <title>Velo News:Tour De France Update</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="../style.css" rel="stylesheet" type="text/css">
+  <!-- <style>
+      body { background-color: rgb(163, 238, 234) }
       #wrapper {
         width: 960px;
         margin-left: auto;
@@ -24,7 +28,7 @@
       textarea, input {
         display: block;
         width: 100%;
-        background-color: #FCF5C7;
+        background-color: rgb(149, 217, 238);
       }
       input {
         height: 36px;
@@ -34,16 +38,32 @@
         height: 200px;
         font-size: 18px;
       }
-    </style>
-  </head>
-  <body>
-    <div id="wrapper">
-      <h1>Note Scraper</h1>
-      <h2><i>This site displays articles from Velo News</i></h2>
-      <div id="articles"></div>
-      <div id="notes"></div>
+
+      .jumbotron {
+        background-color: white;
+      }
+
+    </style> -->
+</head>
+
+<body>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Velo News</h1>
+      <p class="lead"></p>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="app.js"></script>
-  </body>
+  </div>
+
+
+  <div id="wrapper">
+    <h1>Velo News: Tour De France</h1>
+    <h2><i>This site displays articles from Velo News</i></h2>
+    <div id="articles"></div>
+    <div id="notes"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
 </html>
